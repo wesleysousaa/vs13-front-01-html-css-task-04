@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+span {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
