@@ -1,7 +1,5 @@
 main {
-  display: flex;
-  flex-direction: column;
-  gap: 5rem;
+  margin-top: 3rem;
 }
 
 .presentation-class {
@@ -9,6 +7,7 @@ main {
   flex-direction: row;
   width: 80%;
   justify-content: space-between;
+  gap: 2rem;
 }
 
 button {
@@ -18,23 +17,28 @@ button {
   height: 2rem;
   background-color: var(--primary);
   border: none;
-  color: var(--textWhite);
+  color: var(--text-white);
   border-radius: 4px;
   cursor: pointer;
 }
 
 .presentation-class a {
   text-decoration: none;
-  color: var(--textWhite);
+  color: var(--text-white);
 }
 
 .presentation-class a:hover {
-  opacity: 0.5;
+  opacity: 0.8;
+}
+
+.left-presentation h1,
+p {
+  width: 80%;
 }
 
 .presentation-class,
 .best-coffe-class {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -42,7 +46,14 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 32%;
+}
+
+.left-presentation button {
+  height: 2.5rem;
+}
+
+.left-presentation a {
+  width: fit-content;
 }
 
 .left-presentation h1,
@@ -56,27 +67,24 @@ p {
 
 .best-coffe-class {
   display: flex;
-  width: 80%;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
 }
 
 .best-coffe-container {
   /* display: grid; */
   /* grid-template-columns: repeat(4, minmax(20rem, 20rem)); */
   display: flex;
-  flex-wrap: wrap; /* Permite a quebra para a próxima linha */
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
   gap: 1rem;
   margin-top: 1rem;
 }
-
-/* .best-coffe-container::after {
-  content: "";
-  flex: auto;
-} */
 
 .card {
   display: flex;
@@ -110,7 +118,7 @@ p {
   background-color: var(--primary);
   padding: 5px 16px;
   border-radius: 16px;
-  color: var(--textWhite);
+  color: var(--text-white);
   font-size: small;
 }
 
