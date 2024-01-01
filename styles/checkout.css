@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+main h1 {
+    margin-bottom: 2rem;
+}
+
+div.checkout {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
