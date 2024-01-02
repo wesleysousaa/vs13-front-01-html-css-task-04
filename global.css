@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary: #b47150;
+  --background: #fbfbfb;
+  --secondary: #e8e5e4;
+  --text-white: #fff;
+  --accent: #c6c6c6;
+  --text: #000;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+  background-color: var(--background);
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header,
+main {
+  display: flex;
+  width: 80%;
+}
+
+main {
+  flex-direction: column;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+header {
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 2rem;
+  margin: 0;
+}
+
+header .logo-link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 1rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  background-color: var(--primary);
+  margin: 0;
+}
+
+footer img {
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+footer img:hover {
+  opacity: 0.8;
+}

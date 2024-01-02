@@ -1,0 +1,173 @@
+body {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+span {
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+main h1 {
+    margin-bottom: 2rem;
+}
+
+div.checkout {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.checkout h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.checkout h3 {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+section.customer-data-form,
+section.order-checkout {
+    width: 40rem;
+    padding: 1.5rem 2rem 2rem 2rem;
+    background-color: var(--secondary);
+    border-radius: 4px;
+    margin-bottom: 8rem;
+}
+
+section.customer-data-form {
+    height: fit-content;
+}
+
+.customer-data-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.customer-data-form input {
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: var(--accent);
+    color: var(--text);
+    padding: 1.5rem;
+    border: none;
+}
+
+input::placeholder {
+    color: var(--text);
+}
+
+ul.items li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 2.5rem;
+    border-bottom: 2px solid rgba(218, 218, 218, 0.8);
+}
+
+div.order-settings-actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.order-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div.set-quantity {
+    width: 65%;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--accent);
+    color: var(--text);
+}
+
+.set-quantity span {
+    font-weight: 600;
+}
+
+.set-quantity button {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: none;
+    border: none;
+}
+
+.order-settings-actions button {
+    width: 25%;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--accent);
+}
+
+ul.summary {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    gap: 0.6rem;
+}
+
+.summary li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-itens,
+.service-tax {
+    font-weight: 500;
+}
+
+a.confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-white);
+    text-decoration: none;
+}
+
+a.confirm:hover {
+    opacity: 0.8;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

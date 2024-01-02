@@ -1,0 +1,148 @@
+main {
+  margin-top: 3rem;
+}
+
+.presentation-class {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+button {
+  margin: 0;
+  width: 10rem;
+  font-weight: bold;
+  height: 2rem;
+  background-color: var(--primary);
+  border: none;
+  color: var(--text-white);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.presentation-class a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+.presentation-class a:hover {
+  opacity: 0.8;
+}
+
+.left-presentation h1,
+p {
+  width: 80%;
+}
+
+.presentation-class,
+.best-coffe-class {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.left-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.left-presentation button {
+  height: 2.5rem;
+}
+
+.left-presentation a {
+  width: fit-content;
+}
+
+.left-presentation h1,
+p {
+  text-align: justify;
+}
+
+.left-presentation h1 {
+  font-size: 2rem;
+}
+
+.best-coffe-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+}
+
+.best-coffe-container {
+  /* display: grid; */
+  /* grid-template-columns: repeat(4, minmax(20rem, 20rem)); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  display: flex;
+  /* flex: 0 0 calc(24% - 10px); */
+  min-width: 24%;
+  position: relative;
+  flex-shrink: 0;
+  flex-direction: column;
+  /* width: 20rem; */
+  height: 23rem;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px 12px;
+  background-color: var(--secondary);
+  margin-top: 2rem;
+  flex: 1;
+}
+
+.coffe-img {
+  position: relative;
+  top: -10%;
+  width: 100px;
+}
+
+.card .categories {
+  display: flex;
+  gap: 1rem;
+}
+
+.card .categories span {
+  background-color: var(--primary);
+  padding: 5px 16px;
+  border-radius: 16px;
+  color: var(--text-white);
+  font-size: small;
+}
+
+.card .description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 80%;
+}
+
+.card .value span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card button {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.card p {
+  text-align: center;
+}
